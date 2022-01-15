@@ -3,17 +3,17 @@ from userbot import CMD_HELP, DEVS
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.bdrl(?: |$)(.*)')
+@register(outgoing=True, pattern='^.yansen(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai Perkenalkan Namaku Bdrl`")
+    await typew.edit("`Hai Perkenalkan Namaku Yansen`")
     sleep(3)
-    await typew.edit("`20 Tahun`")
+    await typew.edit("`17 Tahun`")
     sleep(3)
     await typew.edit("`JOMBLO`")
     sleep(1)
-    await typew.edit("`Tinggal Di Jawa, Salam Kenal:)`")
+    await typew.edit("`Tinggal Di Jawa Barat, Salam Kenal:)`")
 # Create by myself @localheart
 
 
@@ -41,25 +41,25 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.trio(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ngeri(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai saya trio kontol `")
+    await typew.edit("`run ah ada suhu bot `")
     sleep(5)
-    await typew.edit("`perkenalkan saya @TripleNineee Bawok, lanjut.`")
+    await typew.edit("`btw ajarin deploy bot dong`")
     sleep(3)
-    await typew.edit("`saya @SangDappaa memek`")
+    await typew.edit("`kan Abang atau Kaka suhu nih`")
     sleep(3)
-    await typew.edit("`Dan saya @Bdrlllll Jembut`")
+    await typew.edit("`ayolah ajarin saya🥺`")
     sleep(1)
-    await typew.edit("`Kami bertiga tolol dan donggo 🥵`")
+    await typew.edit("`Pc @yansesat aja ya🥵`")
 # Create by myself @localheart
 
 
 CMD_HELP.update({
-    "oi": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `bdrl`\
-    \n↳ : perkenalan Bdrl\
+    "oi": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `yansen`\
+    \n↳ : perkenalan yansen\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
     \n↳ : Gombalan maut`\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.semangat`\
